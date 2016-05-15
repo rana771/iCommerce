@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>iCommerce</title>
+<title>Insert title here</title>
 </head>
 <body>
-Hello World
+	This is from index controller of mvc
 </body>
 </html>
