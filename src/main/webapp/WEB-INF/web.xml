@@ -22,6 +22,9 @@
 		<url-pattern>*.htm</url-pattern>
 		<url-pattern>*.json</url-pattern>
 		<url-pattern>*.xml</url-pattern>
+<!-- 		<url-pattern>*.jsp</url-pattern> -->
+<!-- 		<url-pattern>*.gsp</url-pattern> -->
+<!-- 		<url-pattern>*.rana</url-pattern> -->
 	</servlet-mapping>
   
   
