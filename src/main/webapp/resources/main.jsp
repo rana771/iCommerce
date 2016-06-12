@@ -26,7 +26,7 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel=stylesheet type=text/css>
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel=stylesheet type=text/css>
     <!-- Css files -->
-    <link rel=stylesheet href=css/main.min.css>
+    <link rel=stylesheet href="../resources/css/main.min.css">
     <!-- Fav and touch icons -->
     <link rel=apple-touch-icon-precomposed sizes=144x144 href=img/ico/apple-touch-icon-144-precomposed.html>
     <link rel=apple-touch-icon-precomposed sizes=114x114 href=img/ico/apple-touch-icon-114-precomposed.html>

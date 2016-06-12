@@ -51,7 +51,7 @@
                                         data-toggle=modal href=#myModal1><strong>Sammy Morerira</strong></a><span
                                         class=time>35 min ago</span></span> <span class=msg>I have question about new function ...</span>
                                 </li>
-                                <li><span class="icon avatar"><img src=img/avatar.jpg alt=""></span> <span class=name><a
+                                <li><span class="icon avatar"><img src="../resources/img/avatar.jpg" alt=""></span> <span class=name><a
                                         data-toggle=modal href=#myModal1><strong>Rana</strong></a><span
                                         class=time>1 hour ago</span></span> <span class=msg>I need to meet you urgent please call me ...</span>
                                 </li>
@@ -84,7 +84,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class=dropdown><a href=# class="dropdown-toggle avatar" data-toggle=dropdown><img src=img/avatar.jpg
+                <li class=dropdown><a href=# class="dropdown-toggle avatar" data-toggle=dropdown><img src="../resources/img/avatar.jpg"
                                                                                                       alt=""
                                                                                                       class="image">
                     <span class=txt>rana@icommerce.com</span> <b class=caret></b></a>
