@@ -1,4 +1,5 @@
-<!DOCTYPE html><!--[if lt IE 8]>
+<!DOCTYPE html>
+<!--[if lt IE 8]>
 <html class="no-js lt-ie8"  ng-app="app"> 
 <![endif]-->
 <!--[if gt IE 8]>
@@ -6,8 +7,8 @@
 <html class="no-js"  ng-app="app">
 <!--<![endif]-->
 <html class="no-js"  ng-app="app">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
     <meta charset="utf-8">
     <title>&diams;iCommerce&diams;</title>
