@@ -44,4 +44,5 @@
 	<jpa:repositories base-package="com.vs.ic.repository" />
 	
 	<import resource="spring-security.xml" />
+	
 </beans>

@@ -44,19 +44,19 @@
               <div class="widget-content">
                 <div class="padd">
                   <!-- Login form -->
-                  <form class="form-horizontal">
+                  <form class="form-horizontal" action='/j_spring_security_check' method='POST' role="form">
                     <!-- Email -->
                     <div class="form-group">
                       <label class="control-label col-lg-3" for="inputEmail">Email</label>
                       <div class="col-lg-9">
-                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        <input type="text" class="form-control" id="inputEmail" name="j_username" placeholder="Email">
                       </div>
                     </div>
                     <!-- Password -->
                     <div class="form-group">
                       <label class="control-label col-lg-3" for="inputPassword">Password</label>
                       <div class="col-lg-9">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        <input type="password" class="form-control" id="inputPassword" name="j_password" placeholder="Password">
                       </div>
                     </div>
                     <!-- Remember me checkbox and sign in button -->

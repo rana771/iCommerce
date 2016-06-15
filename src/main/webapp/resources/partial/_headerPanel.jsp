@@ -98,8 +98,8 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href=login.html><i class="s16 icomoon-icon-exit"></i><span class=txt>Logout</span></a></li>
-                <li><a id=toggle-right-sidebar href=#><i class="s16 icomoon-icon-indent-increase"></i></a></li>
+                <li><a href="login.html"><i class="s16 icomoon-icon-exit"></i><span class=txt>Logout</span></a></li>
+                <li><a id="toggle-right-sidebar" href="#"><i class="s16 icomoon-icon-indent-increase"></i></a></li>
             </ul>
      
          
