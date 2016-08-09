@@ -4,5 +4,7 @@ public class ItemImage {
 	Item item;
 	String name;
 	String imagePath;
+	Boolean isDefault;
+	
 	
 }
