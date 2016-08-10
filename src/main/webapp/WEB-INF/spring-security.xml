@@ -8,24 +8,28 @@
 
 	<http use-expressions="true">
 		<intercept-url pattern="/dashboard**" access="hasRole('ROLE_ADMIN')" />
-		<form-login login-page="/login.html" />
+		<intercept-url pattern="/dashboard**" access="hasRole('ROLE_USER')" />
+<!-- 		<form-login login-page="/login.html" /> -->
+		<form-login login-page="/login.html"		
+			default-target-url="/dashboard.html" authentication-failure-url="/login.html?auth=fail" />
 		<logout logout-url="/logout"/>
+
 	</http>
 
 	<authentication-manager>
 		<authentication-provider>
-	<!-- 	<jdbc-user-service data-source-ref="dataSource"
+		<jdbc-user-service data-source-ref="dataSource"
 		authorities-by-username-query="select user.name,role.name from user
 							 join user_role on user.id=user_role.users_id
 							 join role on role.id=user_role.roles_id 
 							 where user.name=?"
-		users-by-username-query="select name, password , 1 from user where name=?"> -->
+		users-by-username-query="select name, password , 1 from user where name=?"/>
 		
 		
-			<user-service>
+			<!-- <user-service>
 				<user name="rana" password="123456" authorities="ROLE_USER,ROLE_ADMIN" />
 				<user name="user" password="123456" authorities="ROLE_USER" />
-			</user-service>
+			</user-service> -->
 		</authentication-provider>
 	</authentication-manager>
 
