@@ -98,7 +98,9 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="login.html"><i class="s16 icomoon-icon-exit"></i><span class=txt>Logout</span></a></li>
+<!--                 <li><a href="login.html"><i class="s16 icomoon-icon-exit"></i><span class=txt>Logout</span></a></li> -->
+                 <li><a href="/j_spring_security_logout"><i class="s16 icomoon-icon-exit"></i><span class=txt>Logout</span></a></li>
+<!--                 <security:logout logout-url="/j_spring_security_logout" logout-success-url="login.html" invalidate-session="true" /> -->
                 <li><a id="toggle-right-sidebar" href="#"><i class="s16 icomoon-icon-indent-increase"></i></a></li>
             </ul>
      
