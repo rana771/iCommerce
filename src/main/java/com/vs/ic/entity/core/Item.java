@@ -1,5 +1,6 @@
 package com.vs.ic.entity.core;
 
+
 public class Item {
 	ItemGroup itemGroup;
 	String name;

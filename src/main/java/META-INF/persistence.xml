@@ -3,5 +3,6 @@
 	<persistence-unit name="iCommerce">
 		<class>com.vs.ic.entity.security.User</class>
 		<class>com.vs.ic.entity.security.Role</class>
+		<class>com.vs.ic.entity.core.ItemGroup</class>
 	</persistence-unit>
 </persistence>
