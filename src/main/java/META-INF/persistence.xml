@@ -4,5 +4,10 @@
 		<class>com.vs.ic.entity.security.User</class>
 		<class>com.vs.ic.entity.security.Role</class>
 		<class>com.vs.ic.entity.core.ItemGroup</class>
+		<class>com.vs.ic.entity.common.Company</class>
+		<class>com.vs.ic.entity.common.MeasurementUnit</class>
+		<class>com.vs.ic.entity.common.Currency</class>
+		<class>com.vs.ic.entity.core.Item</class>
+		<class>com.vs.ic.entity.common.TaxClass</class>
 	</persistence-unit>
 </persistence>

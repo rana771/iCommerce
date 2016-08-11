@@ -15,6 +15,8 @@ import javax.persistence.OneToMany;
 
 import org.hibernate.annotations.Type;
 
+import com.vs.ic.entity.common.Company;
+
 @Entity
 public class ItemGroup {
 	
@@ -26,7 +28,7 @@ public class ItemGroup {
 	
 	@ManyToOne(cascade={CascadeType.ALL})
 	@JoinColumn(name="parent_group_id")
-	@Column(nullable=true)
+	//@Column(nullable=true)
 	ItemGroup itemGroup;
 
 	@OneToMany(mappedBy="itemGroup")
@@ -43,5 +45,10 @@ public class ItemGroup {
 	String favImagePath;
 	String thumNailImagePath;
 	
+	@ManyToOne
+	@JoinColumn(name="company_id")
+	private Company company;
+	
+
 
 }
